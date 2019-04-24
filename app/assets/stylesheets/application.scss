@@ -13,7 +13,9 @@
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
-
+ @import "partials";
+ @import "base";
+ @import "responsive/*";
 
 /*nav*/
 
@@ -38,7 +40,12 @@ nav {
       opacity: 0.8;
     }
   }
+  .col-sm-5, .col-sm-7 {
+    padding: 0;
+  }
 }
+
+
 
 /*body*/
 
