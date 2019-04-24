@@ -2,6 +2,12 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.1'
+gem 'rspec-rails', '~> 3.6'
+gem 'factory_bot', '~> 5.0', '>= 5.0.2'
+gem 'rails-controller-testing'
+gem 'headless'
+gem 'poltergeist'
+gem 'database_cleaner'
 gem 'bootstrap_form'
 gem 'devise'
 gem 'jquery-rails'
